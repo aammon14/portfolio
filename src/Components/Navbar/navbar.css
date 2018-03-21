@@ -1,7 +1,7 @@
 .navdiv {
 }
 .navList {
-  background-color: #004cc6;
+  background: linear-gradient(#224d93, #7587a3);
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -9,6 +9,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  opacity: .75;
 }
 .navItem {
   float: right;
