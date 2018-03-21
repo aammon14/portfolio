@@ -1,0 +1,22 @@
+.banner {
+  text-align: center;
+  border: 1px solid black;
+  height: 500px;
+  align-items: center;
+  background-image: url('../../images/sunrise.jpg');
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+}
+.name {
+  font-size: 70px;
+  line-height: 70px;
+  margin-top: 225px;
+  color: white;
+  text-shadow: 5px 3px black;
+}
+.title {
+  font-size: 30px;
+  line-height: 30px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
