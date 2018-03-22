@@ -10,12 +10,7 @@ class AboutMe extends Component {
         <div className="aboutMe">
           <h1>About Me</h1>
           <p>
-            From professional hockey player to fullstack web developer, I am a very driven individual.
-            My experience with rigorous academics and demanding athletics has made
-            me fit for any challenge. I love working in a team environment and
-            competing to reach my goals. I believe these intangible skills provide
-            me with a solid foundation to succeed in a web developer's
-            environment.
+            Having recently finished up a three-year career in professional hockey, I am transitioning into a career in the field of web development. As an avid problem-solver with a great attention to detail and a passion for building things, web development came naturally to me and has become a great passion of mine. I apply the same work ethic, energy, and drive that led to my previous successes in hockey, into creating interactive, responsive, and useful full-stack web applications.
           </p>
           <br />
           <h1>Developer Skills</h1>
