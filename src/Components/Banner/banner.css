@@ -1,16 +1,17 @@
 .banner {
   text-align: center;
   border: 1px solid black;
-  height: 500px;
+  height: 600px;
   align-items: center;
   background-image: url('../../images/sunrise.jpg');
-  background-size: 100% 500px;
+  background-size: 100% 600px;
   background-repeat: no-repeat;
+  background-position: relative;
 }
 .name {
   font-size: 70px;
   line-height: 70px;
-  margin-top: 200px;
+  margin-top: 250px;
   color: white;
   text-shadow: 5px 3px black;
 }
