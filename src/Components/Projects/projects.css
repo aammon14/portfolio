@@ -1,18 +1,26 @@
 .projectDiv {
+  margin-top: 100px;
   text-align: center;
-  padding-top: 50px;
+  padding: 40px;
+  background: #224d93;
 }
 .projectDiv h1 {
   text-align: center;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px #888888;
+  padding-bottom: 25px;
 }
 .project {
   margin: 20px auto;
   border-radius: 5px;
-  box-shadow: 5px 10px 15px 5px #888888;
+  background: white;
+  box-shadow: 5px 10px 15px 5px black;
   width: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-bottom: 10px;
 }
 .project h3 {
   margin-top: 0;
@@ -30,9 +38,30 @@
   margin: 5px 20px;
   padding: 5px;
 }
+.project p {
+  margin-bottom: 30px;
+}
 .projectImage img {
   width: 100%;
   height: 100%;
   border-radius: 5px;
   border: 1px solid black;
+}
+.project img:hover {
+  opacity: 0.5;
+  width: 101%;
+  height: 101%;
+}
+.project a {
+  border: 2px solid #224d93;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #888888;
+  margin: 10px 10px 10px 0;
+  text-decoration: none;
+  color: #224d93;
+  padding: 10px;
+}
+.project a:hover {
+  background: #224d93;
+  color: white;
 }
