@@ -10,7 +10,7 @@ class AboutMe extends Component {
         <div className="aboutMe">
           <h1>About Me</h1>
           <p>
-            Having recently finished up a three-year career in professional hockey, I am transitioning into a career in the field of web development. As an avid problem-solver with a great attention to detail and a passion for building things, web development came naturally to me and has become a great passion of mine. I apply the same work ethic, energy, and drive that led to my previous successes in hockey, into creating interactive, responsive, and useful full-stack web applications.
+            Having recently finished up a three-year career in professional hockey, I am transitioning into a career in the field of web development. As an avid problem-solver with a great attention to detail and a passion for building things, web development came naturally to me and has become a great passion of mine. I apply the same work ethic, energy, and drive that led to my previous successes in hockey into creating interactive, responsive, and useful full-stack web applications.
           </p>
           <br />
           <h1>Developer Skills</h1>

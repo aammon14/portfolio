@@ -1,4 +1,5 @@
 .navdiv {
+  z-index: 3;
 }
 .navList {
   background: linear-gradient(#224d93, #7587a3);

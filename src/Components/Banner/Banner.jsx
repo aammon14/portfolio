@@ -5,8 +5,10 @@ class Banner extends Component {
   render() {
     return(
       <div className='banner'>
-        <h1 className='name'>Andrew Ammon</h1>
-        <h3 className='title'>Full Stack Web Developer</h3>
+        <h1 className='name'>
+          <span class='heading-primary--main'>Andrew Ammon</span>
+          <span class='heading-primary--sub'>Full Stack Web Developer</span>
+        </h1>
       </div>
     )
   }

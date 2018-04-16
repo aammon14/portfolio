@@ -1,24 +1,65 @@
 .banner {
   text-align: center;
   border: 1px solid black;
-  height: 600px;
-  align-items: center;
+  height: 95vh;
   background-image: url('../../images/sunrise.jpg');
-  background-size: 100% 600px;
+  background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: relative;
+  background-position: top;
+  /*position: relative;*/
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 .name {
-  font-size: 70px;
-  line-height: 70px;
-  margin-top: 250px;
+  font-size: 7rem;
+  line-height: 7rem;
+  margin-top: 15rem;
   color: white;
   text-shadow: 6px 6px 6px black;
+  text-transform: uppercase;
 }
-.title {
-  font-size: 30px;
-  line-height: 30px;
-  color: white;
-  text-shadow: 3px 3px 3px black;
+.heading-primary--main {
+  display: block;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.heading-primary--sub{
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1rem;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
